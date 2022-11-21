@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#title {
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+#textArea {
+    width: 50%;
+    height: 40%;
+    border: none;
+    border-radius: 1em;
+    resize: none;
+    padding: 10px;
+    margin-top: 2em;
+}
+#textArea:focus {
+    outline: none !important;
+    border: 3px solid teal;
+}
+
+#generateBtn {
+    border: none;
+    border-radius: .5em;
+    padding: 1em 1.5em;
+    background-color: #ffffff;
+    color: #333;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+#generateBtn:hover {
+    background-color: teal;
+    color: #ffffff;
+}
